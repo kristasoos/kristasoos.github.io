@@ -1,3 +1,16 @@
-h1 {
-  color: blueviolet;
+:root {
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --branding-color: #999999;
+  --secondary-color: #f6f6f5;
+}
+
+hero {
+  text-align: center;
+  color: #7323a8;
+}
+
+hero h1 {
+  font-size: 64px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
