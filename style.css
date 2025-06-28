@@ -1,16 +1,33 @@
-:root {
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
-  --branding-color: #999999;
-  --secondary-color: #f6f6f5;
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-items {
+  color: black;
+  text-decoration: none;
+  padding: 4px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 hero {
   text-align: center;
   color: #7323a8;
+  background-color: gray;
 }
 
 hero h1 {
   font-size: 64px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+
+.my-projects {
+  text-align: center;
+}
+
+.my-projects p {
+  font-size: 20px;
 }
