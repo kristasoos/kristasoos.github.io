@@ -35,7 +35,8 @@ hero h1 {
   padding: 30ox;
 }
 
-.my-projects {
+.my-projects,
+.my-decription {
   text-align: center;
   padding-top: 50px;
 }
@@ -47,10 +48,28 @@ hero h1 {
   padding: 30px;
 }
 
+.reading-img {
+  width: 75%;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+button {
+  padding: 30px 50px;
+  background-color: var(--branding-color);
+  box-shadow: gray;
+  border-radius: 10px;
+}
+
 footer {
   display: flex;
   justify-content: center;
   font-size: 25px;
+  padding: 30px;
 }
 
 footer a {
