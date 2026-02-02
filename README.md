@@ -10,6 +10,8 @@ Content:
 
 Used tools:
 
-- Bootrapper
+- Boostrapper
 - Flexbox
 - Fontawesome for icons
+- Google fonts
+-

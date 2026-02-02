@@ -15,6 +15,7 @@ nav {
 
 a {
   color: black;
+  margin: 20px 20px;
 }
 
 a:hover {
@@ -33,6 +34,11 @@ hero h1 {
   font-size: 64px;
   color: black;
   padding: 30ox;
+}
+
+.my-decription,
+p {
+  padding: 20px;
 }
 
 .my-projects,
